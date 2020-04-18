@@ -1,0 +1,112 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/bg1.jpg) no-repeat;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content{
+    position: relative;
+    width: 24rem;
+}
+.container{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background: rgba(0,0,0,.8);
+    justify-content: center;
+    width: 400px;
+    padding: 40px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.5);
+    border-radius: 10px;
+
+}
+
+.box h1{
+    text-align: center;
+    color:rgba(4, 247, 37, 0.5) ;
+    text-shadow: rgba(0,0,0,.5);
+    border-bottom:1px dashed rgba(4, 247, 37, 0.5);
+    cursor: default;
+}
+input{
+    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgba(4, 247, 37, 0.5);  
+    width: 150px;
+    color: rgba(4, 247, 37, 0.5);
+}
+
+.input{
+    color:rgba(4, 247, 37, 0.5);;
+}
+p a{
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+   
+}
+
+p a:hover{
+    color: #126130;
+}
+
+button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #04ec5d, rgb(156, 233, 166));
+    border: hidden;
+    cursor: pointer;
+    box-shadow:0 0 5px 2px rgba(156, 233, 166,0.8);
+
+    
+}
+
+button:hover{
+    width: 115px;
+    height: 70px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, #04ec5d, rgb(156, 233, 166));
+    border: hidden;
+    transition: .4s;
+    cursor: pointer;
+    box-shadow:0 0 8px 1px rgba(156, 233, 166,0.8);
+}
+
+button span{
+    font-size: 17px;
+    color: #fff;
+    
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('images/iconfont.eot');
+    src: url('images/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('images/iconfont.woff2') format('woff2'),
+        url('images/iconfont.woff') format('woff'),
+        url('images/iconfont.ttf') format('truetype'),
+        url('images/iconfont.svg#iconfont') format('svg');
+  }
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
